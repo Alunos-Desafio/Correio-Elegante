@@ -7,6 +7,12 @@ html{
     background: linear-gradient(to right ,rgb(233, 107, 240) ,rgb(230, 98,98) ,rgb(216, 149, 215)); 
 }
 
+  
+img {
+  width: 80%;
+  height: auto;
+}
+
   .card:hover {
     box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
   }
@@ -21,8 +27,13 @@ html{
     margin: 0%;
     background: linear-gradient(to right ,rgb(233,107,240) ,rgb(230, 98,98) ,rgb(216, 149, 215)); 
   }
+
+  .imagem{
+    border-radius: 50px;
+    width: 500px;
+    height: 500px;
+  }
  
-  
 
   @media only screen and (max-width: 600px) {
     h1{
@@ -45,6 +56,13 @@ html{
       margin: 20px auto;
       background-color: white;
       word-wrap: break-word;
+  
+    }
+  
+    .imagem{
+      border-radius: 20px;
+      width: 320px;
+      height: 320px;
     }
   
   }
@@ -71,8 +89,12 @@ html{
       background-color: white;
       word-wrap: break-word;
     }
-    
-   
+
+    .imagem{
+      border-radius: 20px;
+      width: 400px;
+      height: 400px;
+    }
   }
   
   /* Medium devices (landscape tablets, 768px and up) */
@@ -98,6 +120,12 @@ html{
       background-color: white;
       word-wrap: break-word;
     }
+   
+    .imagem{
+      border-radius: 20px;
+      width: 400px;
+      height: 400px;
+    }
   }
   
   /* Large devices (laptops/desktops, 992px and up) */
@@ -122,6 +150,11 @@ html{
       margin: 20px auto;
       background-color: white;
       word-wrap: break-word;
+    }
+    .imagem{
+      border-radius: 20px;
+      width: 400px;
+      height: 400px;
     }
   }
    
@@ -149,10 +182,17 @@ html{
       background-color: white;
       word-wrap: break-word;
     }
-    
+   
+    .imagem{
+      border-radius: 20px;
+      width: 500px;
+      height: 500px;
+    }
   }
 
   h4{
     font-family: 'Gill Sans';
   }
+
+  
 
